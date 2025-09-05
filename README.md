@@ -1,90 +1,52 @@
-# Elements
+<p align="center">
+  A template for new Nx projects.
+</p>
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+<p align="center">
+  <a href="https://github.com/gperdomor/elements/actions/workflows/ci.yml">
+    <img alt="CI" src="https://github.com/gperdomor/elements/actions/workflows/ci.yml/badge.svg"/>
+  </a>
+  <a href="https://github.com/gperdomor/elements/blob/main/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/gperdomor/elements"/>
+  </a>
+  <a href="http://commitizen.github.io/cz-cli/">
+    <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"/>
+  </a>
+</p>
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+<hr>
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/js?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+## Community
 
-## Finish your CI setup
+Join the growing Nx community! We believe in building together and welcome contributors of all experience levels.
 
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/RoI6HJEBWd)
+### Get Involved
 
+- **Report Issues**: Found a bug or have a suggestion? [Open an issue](https://github.com/gperdomor/elements/issues/new/choose) on GitHub
+- **Ask Questions**: Need help or clarification? Start a conversation in [GitHub Discussions](https://github.com/gperdomor/elements/discussions)
+<!-- - **Contribute Code**: Pull requests are welcome! Check our [contribution guidelines](https://github.com/gperdomor/elements/blob/main/CONTRIBUTING.md) to get started -->
+- **Share Your Work**: Built something with Nx Template? Share it with the community in the [Showcase discussion](https://github.com/gperdomor/elements/discussions/categories/show-and-tell)
+- **Spread the Word**: Star the [repository](https://github.com/gperdomor/elements), share on social media, or write about your experience
 
-## Generate a library
+### Resources
 
-```sh
-npx nx g @nx/js:lib packages/pkg1 --publishable --importPath=@my-org/pkg1
-```
+- [GitHub Repository](https://github.com/gperdomor/elements) - Source code, issues, and project management
+- [Code of Conduct](https://github.com/gperdomor/elements/blob/main/CODE_OF_CONDUCT.md) - Our community standards and expectations
 
-## Run tasks
+Your feedback and contributions help make Nx Template better for everyone!
 
-To build the library use:
+## Authors
 
-```sh
-npx nx build pkg1
-```
+- [@gperdomor](https://github.com/gperdomor)
 
-To run any task with Nx use:
+## Sponsors
 
-```sh
-npx nx <target> <project-name>
-```
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/gperdomor/static/sponsors.svg">
+    <img src='https://cdn.jsdelivr.net/gh/gperdomor/static/sponsors.svg'/>
+  </a>
+</p>
 
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
+## License
 
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Versioning and releasing
-
-To version and release the library use
-
-```
-npx nx release
-```
-
-Pass `--dry-run` to see what would happen without actually releasing the library.
-
-[Learn more about Nx release &raquo;](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Keep TypeScript project references up to date
-
-Nx automatically updates TypeScript [project references](https://www.typescriptlang.org/docs/handbook/project-references.html) in `tsconfig.json` files to ensure they remain accurate based on your project dependencies (`import` or `require` statements). This sync is automatically done when running tasks such as `build` or `typecheck`, which require updated references to function correctly.
-
-To manually trigger the process to sync the project graph dependencies information to the TypeScript project references, run the following command:
-
-```sh
-npx nx sync
-```
-
-You can enforce that the TypeScript project references are always in the correct state when running in CI by adding a step to your CI job configuration that runs the following command:
-
-```sh
-npx nx sync:check
-```
-
-[Learn more about nx sync](https://nx.dev/reference/nx-commands#sync)
-
-
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Install Nx Console
-
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
-
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-## Useful links
-
-Learn more:
-
-- [Learn more about this workspace setup](https://nx.dev/nx-api/js?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-
-And join the Nx community:
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+[MIT](https://github.com/gperdomor/elements/blob/main/LICENSE) License © [Gustavo Perdomo](https://github.com/gperdomor)
