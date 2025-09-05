@@ -30,13 +30,13 @@ importers:
         specifier: 21.4.1
         version: 21.4.1(@babel/traverse@7.28.3)(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17))(nx@21.4.1(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))
       '@swc-node/register':
-        specifier: ~1.9.1
+        specifier: 1.9.2
         version: 1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.24)(typescript@5.8.3)
       '@swc/core':
-        specifier: ~1.5.7
+        specifier: 1.5.29
         version: 1.5.29(@swc/helpers@0.5.17)
       '@swc/helpers':
-        specifier: ~0.5.11
+        specifier: 0.5.17
         version: 0.5.17
       commitizen:
         specifier: 4.3.1
